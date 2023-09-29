@@ -1,0 +1,43 @@
+/* Apartment.css */
+.apartment {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+  width: 300px;
+}
+
+.apartment:hover {
+  transform: translateY(-5px);
+}
+
+.apartment-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.apartment-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.apartment-description {
+  margin: 10px 0;
+}
+
+.apartment-price {
+  font-weight: bold;
+}
+
+.apartment-info {
+  margin-top: 10px;
+}
+
+/* ApartmentsList.css */
+.apartment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
